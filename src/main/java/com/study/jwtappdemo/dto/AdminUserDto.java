@@ -1,8 +1,8 @@
 package com.study.jwtappdemo.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.study.jwtappdemo.model.Status;
 import com.study.jwtappdemo.model.User;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data

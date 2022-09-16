@@ -3,6 +3,7 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
+
     <changeSet id="1.0.0" author="konstantin.ponomarev">
         <createTable tableName="users">
             <column name="id" type="BIGINT" autoIncrement="true">
@@ -107,5 +108,4 @@
             <column name="name" value="ROLE_ADMIN"/>
         </insert>
     </changeSet>
-
 </databaseChangeLog>
